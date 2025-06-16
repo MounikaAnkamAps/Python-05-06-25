@@ -1,0 +1,28 @@
+# chaitanya-> input 
+# o/p -> aiaa
+
+s="chaitanya"
+def vowel(s):
+    for i in s.lower():
+        if i in "aeiou":
+            print(i,end="")
+Chaitanya(s)
+        
+
+# concat even positions in string Chaitanya
+ 
+s="chaitanya"
+def even_con(s):
+    print(s[::2])
+even_con(s)
+
+# # take two indexes and concat that part of indexes 
+# # ex-> 1,4 -> chaitanya -> hai 
+# 4  means -> 3
+
+def index_con(s,n1,n2):
+    print(s[n1:n2])
+s="chaitanya"
+n1=int(input())
+n2=int(input())
+index_con(s,n1,n2)
